@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	while (true)
+	for(;;)
 	{
 		FILE *make_output;
 

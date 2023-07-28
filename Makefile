@@ -1,6 +1,6 @@
 CC=clang
 CFLAGS=-Werror -Wall -Wextra \
-       -std=c2x -pedantic -g
+       -std=c17 -pedantic -g
 
 please: please.o fileinfo.o
 	$(CC) $(CFLAGS) -o please please.o fileinfo.o
